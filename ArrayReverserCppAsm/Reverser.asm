@@ -2,6 +2,8 @@
 .model flat,c
 .code
 
+;This prosedure reverse array extern "C" void Reverser(int* destination, const int* source, int size);
+
 Reverser	proc
 			push ebp
 			mov ebp,esp
